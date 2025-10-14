@@ -1,0 +1,151 @@
+
+html{
+    font-weight: bold;
+}
+body{
+    background-color: #151c1f;
+    font-family: 'Roboto', 'Times New Roman', 'Inter';
+}
+header{
+    background-color: #1f754d;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color:#000;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+form{
+    font-family: 'Roboto', 'Times New Roman', 'Inter';
+    font-size: 20px;
+    color:#000;
+    font-weight: bold;
+}
+ul, ol{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color:#000;
+    font-weight: bold;
+}
+footer{
+    text-align: justify;
+    font-size: 15px;
+    color: #000;
+    margin-top: 20px;
+}
+iframe{
+    border-radius: 25px;
+}
+span{
+    vertical-align: middle;
+    text-align:center
+    font-family 'Roboto', 'Times New Roman', 'Inter';
+    font-weight: bold;
+}
+svg{
+    vertical-align: middle;
+}
+aside{
+    font-family: 'Roboto', 'Times New Roman', 'Inter';
+    font-weight: bold;
+}
+
+.p{
+    color: white;
+}
+
+.encabezado{
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #000000;
+    font-family: 'Roboto', 'Times New Roman', 'Inter';
+    text-shadow: 2px 2px 10px #262525; 
+}
+
+.encabezadob{
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #ffffff;
+    font-family: 'Roboto', 'Times New Roman', 'Inter';
+    text-shadow: 2px 2px 10px #262525; 
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    width: 15px;
+    height: 15px;
+}
+.imagenes img {
+    margin: 40px;    
+}
+.registerm{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Segoe UI';
+}
+.caja{
+    justify-content: center; 
+    display: flex; 
+    gap: 200px;
+}
+
+.cajap{
+    justify-content: center; 
+    display: flex; 
+    gap: 20px;
+}
+
+.cajainvp{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+
+.cajainv{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px; 
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+
+.fondosup{
+    background-color: #1f754d;
+}
+
+.logo{
+    width: auto;
+    height: 50px;
+}
+
+.precio{
+    font-size: 8rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fondoimg{
+    background-image: url("../Bravo'S/img/Fondo.png");
+    background-size: cover;
+}
