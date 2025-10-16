@@ -102,12 +102,16 @@ aside{
     justify-content: center; 
     display: flex; 
     gap: 2vw;
+    flex-wrap: wrap;
+        /* esto permite que los elementos "bajen" a otra línea */
 }
 
 .cajap{
     justify-content: center; 
     display: flex; 
     gap: 2vw;
+    flex-wrap: wrap;
+        /* esto permite que los elementos "bajen" a otra línea */
 }
 
 .cajainvp{
@@ -116,6 +120,8 @@ aside{
     gap: 2vw;
     padding: 1.5rem;
     border-radius: 1.25rem;
+    flex-wrap: wrap;
+        /* esto permite que los elementos "bajen" a otra línea */
 }
 
 .cajainv{
@@ -124,6 +130,8 @@ aside{
     gap: 2vw;
     padding: 1.5rem;
     border-radius: 1.25rem;
+    flex-wrap: wrap;
+        /* esto permite que los elementos "bajen" a otra línea */
 }
 
 .fondosup{
